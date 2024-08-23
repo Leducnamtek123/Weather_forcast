@@ -1,7 +1,5 @@
 # Weather Forecast Application
 
-![Weather Forecast](https://example.com/weather-forecast-logo.png) <!-- Thay bằng URL logo của bạn -->
-
 ## Giới Thiệu
 
 Ứng dụng Dự Báo Thời Tiết cung cấp thông tin về thời tiết hiện tại và dự báo thời tiết cho các ngày tới tại bất kỳ địa điểm nào trên thế giới. Ứng dụng sử dụng OpenWeatherMap API và GeoDB API để cung cấp dữ liệu thời tiết và thông tin địa lý.
