@@ -42,3 +42,33 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
+---
+
+## **Important Notes** ⚠️
+
+- **API Rate Limits:** Both OpenWeatherMap and RapidAPI have rate limits on the number of API calls you can make per minute/hour. Exceeding these limits may result in temporary suspension of access to their services. Make sure to monitor your usage and upgrade your plan if necessary.
+
+- **API Key Security:** Never expose your API keys publicly in repositories, especially on platforms like GitHub. Always use environment variables or secure methods to manage API keys in production environments.
+
+- **Usage Best Practices:** To optimize the performance of your application, avoid making unnecessary API calls. Implement caching mechanisms and make sure to handle API errors gracefully.
+
+---
+
+## **How to Obtain API Keys** 🔑
+
+### **1. OpenWeatherMap API Key**
+
+Follow these steps to get your API key from OpenWeatherMap:
+
+1. **Sign Up:**
+   - Visit [OpenWeatherMap](https://home.openweathermap.org/users/sign_up).
+   - Create a free account by filling in your details.
+
+2. **Generate API Key:**
+   - Once logged in, go to your account dashboard.
+   - Navigate to the **API keys** section.
+   - Click on **Create a key** and name it appropriately (e.g., "Weather App Key").
+   - Your new API key will be displayed. Copy it and replace the placeholder in your code:
+
+   ```javascript
+   const WEATHER_API_KEY = 'your_openweathermap_api_key';
