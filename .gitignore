@@ -1,2 +1,67 @@
 node_modules
 build
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+logs/*
+
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea
+.vscode
+*.sublime-workspace
+
+# Build output
+build/
+dist/
+.DS_Store
+
+# Testing
+coverage/
+*.lcov
+
+# Miscellaneous
+*.pem
+*.crt
+*.key
+
+# Public Directory
+public/*.map
+
+# Service worker output
+sw.js
+service-worker.js
+workbox-*.js
+
+# VSCode settings
+.vscode/
+
+# IntelliJ IDEA settings
+.idea/
+
+# SASS Cache
+.sass-cache/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
